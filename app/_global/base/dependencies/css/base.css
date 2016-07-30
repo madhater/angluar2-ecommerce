@@ -1,0 +1,13 @@
+cs-header nav{
+    background-color:#000;
+}
+cs-header nav a{
+    text-transform: uppercase;
+    color:#CCC;
+    font-size:120%;
+}
+cs-header nav .active a,
+cs-header nav a:hover,
+cs-header nav a:focus{
+    color:#FFF;
+}
