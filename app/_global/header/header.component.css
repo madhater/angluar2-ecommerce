@@ -1,12 +1,24 @@
+header{
+    background-color:#000;
+}
+header,
+header a,
+header .active a,
+header a:hover,
+header a:focus{
+    color:#FFF;
+    text-decoration: none;
+}
 nav{
+    border-top:1px solid #FFF;
     background-color:#000;
 }
 nav a{
     color:#CCC;
-    font-size:120%;
 }
 nav .active a,
 nav a:hover,
 nav a:focus{
     color:#FFF;
+    text-decoration: none;
 }

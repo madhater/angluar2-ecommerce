@@ -6,6 +6,7 @@ import { FooterComponent } from '../footer/footer.component';
 @Component({
     selector: 'cs-base',
     templateUrl: 'app/_global/base/base.component.html',
+    styleUrls: ['app/_global/base/base.component.css'],
     directives: [
         [ROUTER_DIRECTIVES],
         HeaderComponent,

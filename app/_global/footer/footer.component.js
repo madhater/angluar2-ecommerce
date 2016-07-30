@@ -18,6 +18,7 @@ var FooterComponent = (function () {
         core_1.Component({
             selector: 'cs-footer',
             templateUrl: 'app/_global/footer/footer.component.html',
+            styleUrls: ['app/_global/footer/footer.component.css'],
             directives: [
                 [router_1.ROUTER_DIRECTIVES]
             ]

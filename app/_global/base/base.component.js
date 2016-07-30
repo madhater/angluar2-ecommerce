@@ -19,6 +19,7 @@ var BaseComponent = (function () {
         core_1.Component({
             selector: 'cs-base',
             templateUrl: 'app/_global/base/base.component.html',
+            styleUrls: ['app/_global/base/base.component.css'],
             directives: [
                 [router_1.ROUTER_DIRECTIVES],
                 header_component_1.HeaderComponent,
