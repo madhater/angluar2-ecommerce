@@ -1,0 +1,12 @@
+nav{
+    background-color:#000;
+}
+nav a{
+    color:#CCC;
+    font-size:120%;
+}
+nav .active a,
+nav a:hover,
+nav a:focus{
+    color:#FFF;
+}

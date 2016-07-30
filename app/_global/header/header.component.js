@@ -18,6 +18,7 @@ var HeaderComponent = (function () {
         core_1.Component({
             selector: 'cs-header',
             templateUrl: 'app/_global/header/header.component.html',
+            styleUrls: ['app/_global/header/header.component.css'],
             directives: [
                 [router_1.ROUTER_DIRECTIVES]
             ]
