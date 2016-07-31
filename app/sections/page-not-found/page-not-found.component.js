@@ -14,7 +14,6 @@ var PageNotFoundComponent = (function () {
     }
     PageNotFoundComponent = __decorate([
         core_1.Component({
-            selector: 'cs-page-not-found',
             templateUrl: 'app/sections/page-not-found/page-not-found.component.html'
         }), 
         __metadata('design:paramtypes', [])

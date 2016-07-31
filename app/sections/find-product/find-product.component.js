@@ -9,16 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HomeComponent = (function () {
-    function HomeComponent() {
+var router_1 = require('@angular/router');
+var FindProduct = (function () {
+    function FindProduct() {
     }
-    HomeComponent = __decorate([
+    FindProduct = __decorate([
         core_1.Component({
-            templateUrl: 'app/sections/home/home.component.html'
+            styleUrls: ['app/sections/find-product/find-product.component.css'],
+            templateUrl: 'app/sections/find-product/find-product.component.html',
+            directives: [
+                [router_1.ROUTER_DIRECTIVES]
+            ]
         }), 
         __metadata('design:paramtypes', [])
-    ], HomeComponent);
-    return HomeComponent;
+    ], FindProduct);
+    return FindProduct;
 }());
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+exports.FindProduct = FindProduct;
+//# sourceMappingURL=find-product.component.js.map
