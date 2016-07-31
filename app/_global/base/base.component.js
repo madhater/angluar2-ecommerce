@@ -12,6 +12,8 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var header_component_1 = require('../header/header.component');
 var footer_component_1 = require('../footer/footer.component');
+// Add the RxJS Observable operators we need in this app.
+require('./rxjs-operators');
 var BaseComponent = (function () {
     function BaseComponent() {
     }

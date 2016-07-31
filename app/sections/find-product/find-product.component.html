@@ -3,6 +3,10 @@
         left nav
     </div>
     <div class="col-sm-12 col-md-13 col-lg-14">
-        content
+        <ul>
+            <li *ngFor="let product of productList">
+                {{product.id}} | {{product.name}}
+            </li>
+        </ul>
     </div>
 </div>

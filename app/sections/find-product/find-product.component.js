@@ -10,18 +10,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
+var find_product_service_1 = require('./find-product.service');
 var FindProduct = (function () {
-    function FindProduct() {
+    function FindProduct(findProductService) {
+        this.findProductService = findProductService;
+        this.mode = 'Observable';
     }
+    FindProduct.prototype.ngOnInit = function () { this.findProducts(); };
+    FindProduct.prototype.findProducts = function () {
+        var _this = this;
+        this.findProductService.findProducts()
+            .subscribe(function (productList) { return _this.productList = productList; }, function (error) { return _this.errorMessage = error; });
+    };
     FindProduct = __decorate([
         core_1.Component({
             styleUrls: ['app/sections/find-product/find-product.component.css'],
             templateUrl: 'app/sections/find-product/find-product.component.html',
+            providers: [find_product_service_1.FindProductService],
             directives: [
                 [router_1.ROUTER_DIRECTIVES]
             ]
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [find_product_service_1.FindProductService])
     ], FindProduct);
     return FindProduct;
 }());

@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
+// Add the RxJS Observable operators we need in this app.
+import './rxjs-operators';
 
 @Component({
     selector: 'cs-base',
