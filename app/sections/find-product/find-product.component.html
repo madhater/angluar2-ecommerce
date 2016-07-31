@@ -5,7 +5,13 @@
     <div class="col-sm-12 col-md-13 col-lg-14">
         <ul>
             <li *ngFor="let product of productList">
-                {{product.id}} | {{product.name}}
+                <h3>{{product.id}} | {{product.name}}</h3>
+                <ul>
+                    <li *ngFor="let productImage of product.imageList">
+                        {{productImage.path}}<br>
+                        {{productImage.colorCode}}
+                    </li>
+                </ul>
             </li>
         </ul>
     </div>

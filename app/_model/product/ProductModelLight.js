@@ -1,8 +1,9 @@
 "use strict";
 var ProductModelLight = (function () {
-    function ProductModelLight(id, name) {
+    function ProductModelLight(id, name, imageList) {
         this.id = id;
         this.name = name;
+        this.imageList = imageList;
     }
     return ProductModelLight;
 }());

@@ -1,1 +1,1 @@
-{"version":3,"file":"ProductModelLight.js","sourceRoot":"","sources":["ProductModelLight.ts"],"names":[],"mappings":";AAAA;IACE,2BACS,EAAU,EACV,IAAY;QADZ,OAAE,GAAF,EAAE,CAAQ;QACV,SAAI,GAAJ,IAAI,CAAQ;IAAI,CAAC;IAC5B,wBAAC;AAAD,CAAC,AAJD,IAIC;AAJY,yBAAiB,oBAI7B,CAAA"}
+{"version":3,"file":"ProductModelLight.js","sourceRoot":"","sources":["ProductModelLight.ts"],"names":[],"mappings":";AAEA;IACE,2BACS,EAAU,EACV,IAAY,EACZ,SAA8B;QAF9B,OAAE,GAAF,EAAE,CAAQ;QACV,SAAI,GAAJ,IAAI,CAAQ;QACZ,cAAS,GAAT,SAAS,CAAqB;IAAI,CAAC;IAC9C,wBAAC;AAAD,CAAC,AALD,IAKC;AALY,yBAAiB,oBAK7B,CAAA"}

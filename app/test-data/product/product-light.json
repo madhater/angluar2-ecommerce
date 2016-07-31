@@ -1,8 +1,60 @@
 {
     "data": [
-        { "id": "1", "name": "Windstorm" },
-        { "id": "2", "name": "Bombasto" },
-        { "id": "3", "name": "Magneta" },
-        { "id": "4", "name": "Tornado" }
+        {
+            "id": "0000001",
+            "name": "Product 1",
+            "imageList":[
+                {
+                    "path":"product-imageList/c164d6ed-dc88-4c19-af31-7144b853296f.jpg",
+                    "colorCode": "0001"
+                },
+                {
+                    "path":"product-imageList/7c1bea2d-e611-4746-a7f9-6615803aeacb.jpg",
+                    "colorCode": "0002"
+                }
+            ]
+        },
+        {
+            "id": "0000002",
+            "name": "Bombasto",
+            "imageList":[
+                {
+                    "path":"product-imageList/6ab7539a-a531-4296-be2e-6256d989e69e.jpg",
+                    "colorCode": "0003"
+                },
+                {
+                    "path":"product-imageList/ed77f149-00cd-43cb-87f2-c09dff46df59.jpg",
+                    "colorCode": "0004"
+                }
+            ]
+        },
+        {
+            "id": "0000003",
+            "name": "Magneta",
+            "imageList":[
+                {
+                    "path":"product-imageList/62a95a13-6ba5-408e-9f11-1abcf9022965.jpg",
+                    "colorCode": "0005"
+                },
+                {
+                    "path":"product-imageList/543bda68-b24b-4684-86b3-02c521e95e56.jpg",
+                    "colorCode": "0006"
+                }
+            ]
+        },
+        {
+            "id": "0000004",
+            "name": "Tornado",
+            "imageList":[
+                {
+                    "path":"product-imageList/c164d6ed-dc88-4c19-af31-7144b853296f.jpg",
+                    "colorCode": "0007"
+                },
+                {
+                    "path":"product-imageList/7c1bea2d-e611-4746-a7f9-6615803aeacb.jpg",
+                    "colorCode": "0008"
+                }
+            ]
+        }
     ]
 }
